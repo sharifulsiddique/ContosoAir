@@ -1,4 +1,4 @@
-
+[![Build Status](https://dev.azure.com/shariftestorg/contoso%20air/_apis/build/status/sharifulsiddique.ContosoAir?branchName=master)](https://dev.azure.com/shariftestorg/contoso%20air/_build/latest?definitionId=10&branchName=master)
 
 
 # Microsoft.Github CI Demo
