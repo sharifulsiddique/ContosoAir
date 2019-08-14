@@ -4,6 +4,9 @@ trigger:
   branches:
    include:
      - master
+  tags:
+    include:
+      - RC*
 steps:
   - task: Npm@1
     inputs:
