@@ -3,7 +3,7 @@ pool:
 trigger:
   branches:
    include:
-     - master/tags/RC*
+     - master
 steps:
   - task: Npm@1
     inputs:
