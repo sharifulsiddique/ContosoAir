@@ -7,6 +7,9 @@ trigger:
   tags:
     include:
       - RC*
+  paths:
+    include:
+      - '/src/*'
 steps:
   - task: Npm@1
     inputs:
