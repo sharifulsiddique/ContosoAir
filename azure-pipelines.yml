@@ -1,7 +1,9 @@
 pool:
   vmImage: ubuntu-16.04
 trigger:
-  - master/tags/RC*
+  branches:
+   include:
+     - master/tags/RC*
 steps:
   - task: Npm@1
     inputs:
